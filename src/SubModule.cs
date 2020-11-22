@@ -24,7 +24,7 @@ namespace HousesCalradia
         public static readonly string Version = $"{SemVerMajor}.{SemVerMinor}.{SemVerPatch}{SemVerEnd}";
 
         public static readonly string Name = typeof(SubModule).Namespace;
-        public static readonly string DisplayName = "Houses of Calradia"; // to be shown to humans in-game
+        public static readonly string DisplayName = "AI贵族联姻"; // to be shown to humans in-game
         public static readonly string HarmonyDomain = "com.zijistark.bannerlord." + Name.ToLower();
 
         internal static readonly Color ImportantTextColor = Color.FromUint(0x00F16D26); // orange

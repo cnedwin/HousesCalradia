@@ -7,8 +7,8 @@
     <Nullable>enable</Nullable>
 
     <Version>1.1.3</Version>
-    <GameFolder>$(BANNERLORD_GAME_DIR)</GameFolder>
-    <ModuleName>$(AssemblyName)</ModuleName>
+    <GameFolder>D:\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\</GameFolder>
+    <ModuleName>HousesCalradia</ModuleName>
   </PropertyGroup>
 
   <!--NuGet References-->

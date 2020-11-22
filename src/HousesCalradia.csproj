@@ -7,13 +7,13 @@
     <Nullable>enable</Nullable>
 
     <Version>1.1.2</Version>
-    <GameFolder>$(BANNERLORD_GAME_DIR)</GameFolder>
-    <ModuleName>$(AssemblyName)</ModuleName>
+    <GameFolder>D:\Games\154\</GameFolder>
+    <ModuleName>HousesCalradia</ModuleName>
   </PropertyGroup>
 
   <!--NuGet References-->
   <ItemGroup>
-    <PackageReference Include="Bannerlord.BuildResources" Version="1.0.0.23">
+    <PackageReference Include="Bannerlord.BuildResources" Version="1.0.0.25">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>

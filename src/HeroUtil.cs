@@ -27,10 +27,9 @@ namespace HousesCalradia
                 supporterOfClan: clan,
                 age: age);
 
-            // TODO: if age is less than the adulthood age, run them through all the childhood campaign events
-
             // Our own, exact age assignment:
-            hero.SetBirthDay(CampaignTime.YearsFromNow(-age));
+            // FIXME: Will need update in e1.5.5
+            hero.SetBirthDay(CampaignTime.Now - CampaignTime.Years(age));
             hero.CharacterObject.Age = hero.Age; // Get it into the BasicCharacterObject.Age property as well
 
             // Attributes
@@ -54,9 +53,9 @@ namespace HousesCalradia
             }
 
             // TODO:
-            // - morph StaticBodyProperties a bit, in a way that doesn't result in ogres
+            // - morph StaticBodyParameters a bit, in a way that doesn't result in ogres
             // - equip them with a culture-appropriate horse and horse harness
-            // - ensure they have some decent equipment (maybe pick a template soldier's equipment from each culture)
+            // - ensure they have some decent equipment (maybe pick a template soldier from each culture)
 
             hero.Name = hero.FirstName;
             hero.IsNoble = true;
